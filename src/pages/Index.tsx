@@ -50,7 +50,7 @@ const Index = () => {
                 <Hospital className="h-6 w-6 text-primary-foreground" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold">AI Hospital Triage System</h1>
+                <h1 className="text-2xl font-bold">MediFLow</h1>
                 <p className="text-sm text-muted-foreground">
                   Intelligent Priority-Based Queue Management
                 </p>
