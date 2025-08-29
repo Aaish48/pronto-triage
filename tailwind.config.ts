@@ -26,11 +26,32 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				critical: {
+					DEFAULT: 'hsl(var(--critical))',
+					foreground: 'hsl(var(--critical-foreground))'
+				},
+				high: {
+					DEFAULT: 'hsl(var(--high))',
+					foreground: 'hsl(var(--high-foreground))'
+				},
+				medium: {
+					DEFAULT: 'hsl(var(--medium))',
+					foreground: 'hsl(var(--medium-foreground))'
+				},
+				low: {
+					DEFAULT: 'hsl(var(--low))',
+					foreground: 'hsl(var(--low-foreground))'
+				},
+				stable: {
+					DEFAULT: 'hsl(var(--stable))',
+					foreground: 'hsl(var(--stable-foreground))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -63,10 +84,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-critical': 'var(--gradient-critical)',
+				'gradient-stable': 'var(--gradient-stable)'
+			},
+			boxShadow: {
+				'medical': 'var(--shadow-medical)',
+				'critical': 'var(--shadow-critical)'
 			},
 			keyframes: {
 				'accordion-down': {
